@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ng-fire-fa487": {
+      "hosting": {
+        "firebase-test": [
+          "ng-fire-fa487"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ng-fire-fa487"
+  }
+}
