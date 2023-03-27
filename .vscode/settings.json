@@ -1,0 +1,16 @@
+{
+    "editor.fontFamily": "MonoLisa",
+    "editor.lineHeight": 0,
+    "editor.fontLigatures": "'ss02' on",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": "comment",
+            "settings": {
+            "fontStyle": "italic"
+            }
+        }
+        ]
+    },
+    "editor.fontSize": 12
+}

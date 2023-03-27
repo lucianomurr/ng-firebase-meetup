@@ -44,6 +44,10 @@ export class AppComponent {
     this.item$ = collectionData(this.itemCollection) as unknown as Observable<Item[]>;
   }
 
+  /**
+   * This manage the new message and add it to firestore
+   * @param message
+   */
   onNewMessageComing(message: string){
     const item: Item = {
       comment: message
